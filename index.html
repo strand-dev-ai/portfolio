@@ -330,7 +330,7 @@
 
     @media (max-width: 768px) {
       .container {
-        padding: 0 16px;
+        padding: 0 max(20px, env(safe-area-inset-right)) 0 max(20px, env(safe-area-inset-left));
       }
 
       header {
